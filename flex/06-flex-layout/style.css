@@ -10,7 +10,12 @@ body {
 img {
   width: 600px;
 }
-
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
 button {
   font-family: Roboto, sans-serif;
   border: none;
@@ -24,4 +29,20 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header.left-links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-links{
+ display: flex;
+ justify-content: space-between;
+
 }
